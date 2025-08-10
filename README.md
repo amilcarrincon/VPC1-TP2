@@ -6,8 +6,10 @@ cámaras digitales modernas. El video a procesar será: “focus_video.mov”.
 # Parte 1: Se debe implementar un algoritmo que dada una imagen, o región, calcule la métrica propuesta en el paper 
 "Image Sharpness Measure for Blurred Images in Frequency Domain“ y realizar tres experimentos:
 
-    * Medición sobre todo el frame.
-    * Medición sobre una ROI ubicada en el centro del frame. Area de la ROI = 5 o 10% del area total del frame.
+Medición sobre todo el frame.
+
+Medición sobre una ROI ubicada en el centro del frame. Area de la ROI = 5 o 10% del area total del frame.
+
 # Opcional:
 1. Medición sobre una matriz de enfoque compuesta por un arreglo de NxM elementos rectangulares equiespaciados. N y M son valores
 arbitrarios, probar con varios valores 3x3, 7x5, etc … (al menos 3)
